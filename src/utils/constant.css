@@ -1,0 +1,8 @@
+html {
+  --color-text: #23465a;
+  --color-background: lightgray;
+  --color-primary: #23465a;
+  --color-secondary: #2879bd;
+  --color-warning: #f49d45;
+  --gutter: 16px;
+}

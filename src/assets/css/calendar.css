@@ -1,0 +1,112 @@
+.react-calendar__tile {
+    background-color: #fff;
+    min-height: 50px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.react-calendar__month-view__days__day--weekend {
+    color: #ccc;
+}
+
+.react-calendar__tile--active abbr {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--color-text);
+}
+
+.react-calendar__tile--hasActive abbr {
+    width: 40px;
+    height: 40px;
+    background: var(--color-text);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--color-text);
+}
+
+.selected-day abbr {
+    width: 40px;
+    height: 40px;
+    background: var(--color-text);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--color-text);
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    text-align: center;
+}
+
+.react-calendar__navigation__label {
+    background-color: #fff;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.react-calendar__navigation__arrow {
+    background-color: #fff;
+    border: 0px;
+}
+
+/** Big Calendar **/
+
+.big-calendar {
+    min-width: 100%;
+    border: 1px solid #e6e6e6;
+}
+
+.big-calendar th {
+    color: #a0b1b9;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px 10px;
+    border-bottom: 1px solid #cbd7dd;
+    min-width: 150px;
+    width: 12.5%;
+    position: sticky;
+    top: 0;
+}
+
+.big-calendar th.active {
+    color: var(--color-text);
+    font-size: 14px;
+}
+
+.big-calendar td.time {
+    text-align: right;
+    padding: 5px 10px;
+}
+
+.big-calendar td.content {
+    background: #cbe4f3;
+    border-radius: 5px;
+    padding: 5px 5px;
+    vertical-align: top;
+}
+
+.big-calendar td .title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.big-calendar td .description {
+    font-size: 9px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
