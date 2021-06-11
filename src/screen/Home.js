@@ -94,7 +94,7 @@ class Home extends React.Component {
                     url: null,
                     googlePlay: "https://play.google.com/store/apps/details?id=com.neoalgae",
                     appStore: null,
-                    thumbnail: "/portfolio/portfolio-9.jpg"
+                    thumbnail: "/portfolio/portfolio-8.jpg"
                 },
                 {
                     title: "TukangAja",
@@ -104,7 +104,7 @@ class Home extends React.Component {
                     url: null,
                     googlePlay: null,
                     appStore: null,
-                    thumbnail: "/portfolio/portfolio-8.jpg"
+                    thumbnail: "/portfolio/portfolio-9.jpg"
                 },
             ]
         };
