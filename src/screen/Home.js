@@ -13,28 +13,99 @@ class Home extends React.Component {
                 { company: "Crowdbotics", position: "Frontend Engineer", time: "Apr 2021 - Present" },
                 { company: "Arkana Teknologi Indonesia", position: "Founder", time: "Jan 2018 - Present" },
                 { company: "Indoartha Citra Media", position: "Technical Director", time: "Apr 2013 – Dec 2016" },
+                { company: "Freelancing", position: null, time: "Jun 2008 – Apr 2013" },
             ],
             portfolios: [
                 {
-                    title: "Example App",
-                    description: "This is example app",
-                    clientName: "Client Name",
+                    title: "RS Onkologi Surabaya",
+                    description: "Scheduling & customer relationship management for hospital patients on Android application.",
+                    clientName: "RS Onkologi Surabaya",
                     year: 2017,
-                    url: null,
-                    googlePlay: "https://play.google.com/blabla",
-                    appStore: "https://apps.apple.com/blabla",
-                    thumbnail: "/portfolio/example.jpg"
+                    url: "https://rsonkologi.com",
+                    googlePlay: "https://play.google.com/store/apps/details?id=com.rsonkologikonsumen",
+                    appStore: null,
+                    thumbnail: "/portfolio/portfolio-1.jpg"
                 },
                 {
-                    title: "Example App",
-                    description: "This is example app",
-                    clientName: "Client Name",
-                    year: 2017,
-                    url: "https://google.com",
-                    googlePlay: "https://play.google.com/blabla",
-                    appStore: "https://apps.apple.com/blabla",
-                    thumbnail: "/portfolio/example.jpg"
-                }
+                    title: "E-SIAP",
+                    description: "Cloud based online garage information system.",
+                    clientName: "PT Baladewa Otoplasa",
+                    year: "2017-2019",
+                    url: "https://e-siap.com",
+                    googlePlay: "https://play.google.com/store/apps/details?id=com.esiap.owner",
+                    appStore: null,
+                    thumbnail: "/portfolio/portfolio-2.jpg"
+                },
+                {
+                    title: "iKlop",
+                    description: "Online shop for building material.",
+                    clientName: "iKlop",
+                    year: "2018-2019",
+                    url: "https://i-klop.com",
+                    googlePlay: "https://play.google.com/store/apps/details?id=com.iklopcorporate",
+                    appStore: null,
+                    thumbnail: "/portfolio/portfolio-3.jpg"
+                },
+                {
+                    title: "ParkirQ",
+                    description: "Booking application for car parking.",
+                    clientName: "ParkirQ",
+                    year: 2018,
+                    url: "https://parkirq.com",
+                    googlePlay: "https://play.google.com/store/apps/details?id=com.parkirq",
+                    appStore: null,
+                    thumbnail: "/portfolio/portfolio-4.jpg"
+                },
+                {
+                    title: "Mi Burung Dara - Public Executive",
+                    description: "Scheduling & customer relationship management for hospital patients on Android application.",
+                    clientName: "Mi Burung Dara",
+                    year: 2019,
+                    url: null,
+                    googlePlay: null,
+                    appStore: null,
+                    thumbnail: "/portfolio/portfolio-5.jpg"
+                },
+                {
+                    title: "EventQ Ticketing Application",
+                    description: "Sell online ticketing system.",
+                    clientName: "EventQ",
+                    year: 2019,
+                    url: "https://eventq.id",
+                    googlePlay: "https://play.google.com/store/apps/details?id=com.eventq",
+                    appStore: null,
+                    thumbnail: "/portfolio/portfolio-6.jpg"
+                },
+                {
+                    title: "Kopi Teman Mikir",
+                    description: "Integrated system for café.",
+                    clientName: "PT. Arya Duta Rhestana",
+                    year: 2019,
+                    url: "https://kopitemanmikir.com",
+                    googlePlay: "https://kopitemanmikir.com/download",
+                    appStore: null,
+                    thumbnail: "/portfolio/portfolio-7.jpg"
+                },
+                {
+                    title: "Biotekno",
+                    description: "Herbal online shop android application.",
+                    clientName: "PT. Algae Bioteknologi Internasional",
+                    year: 2019,
+                    url: null,
+                    googlePlay: "https://play.google.com/store/apps/details?id=com.neoalgae",
+                    appStore: null,
+                    thumbnail: "/portfolio/portfolio-9.jpg"
+                },
+                {
+                    title: "TukangAja",
+                    description: "Online on-demand technician.",
+                    clientName: "TukangAja",
+                    year: 2019,
+                    url: null,
+                    googlePlay: null,
+                    appStore: null,
+                    thumbnail: "/portfolio/portfolio-8.jpg"
+                },
             ]
         };
     }
@@ -135,7 +206,7 @@ class Home extends React.Component {
                                     </div>
                                 </div>
                                 <div className='col-md-4'>
-                                    <img src={portfolio.thumbnail} style={{ width: '100%' }} />
+                                    <img src={portfolio.thumbnail} style={{ width: '100%', borderRadius: 10 }} />
                                 </div>
                             </div>
                         );
